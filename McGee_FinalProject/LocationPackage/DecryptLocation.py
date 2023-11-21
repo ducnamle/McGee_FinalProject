@@ -20,7 +20,3 @@ def func_1():
     result_1 = ' '.join([english_vocab_list[x] for x in data_1])
 
     return result_1
-
-result_1 = func_1()
-
-result_1
