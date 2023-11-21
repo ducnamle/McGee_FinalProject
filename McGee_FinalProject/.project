@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>McGee_FinalProject</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.python.pydev.PyDevBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.python.pydev.pythonNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>LocationPackage/EncryptedGroupHints Fall 2023 Section 001 (1).json</name>
+			<type>1</type>
+			<location>C:/Users/ducna/Downloads/EncryptedGroupHints Fall 2023 Section 001 (1).json</location>
+		</link>
+		<link>
+			<name>LocationPackage/english-2 (1).txt</name>
+			<type>1</type>
+			<location>C:/Users/ducna/Downloads/english-2 (1).txt</location>
+		</link>
+	</linkedResources>
+</projectDescription>
