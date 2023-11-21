@@ -3,7 +3,7 @@
 import json
 
 def func_1():
-    file_path_1 = "EncryptedGroupHints-Fall-2023-Section-001 (1).json"
+    file_path_1 = "EncryptedGroupHints Fall 2023 Section 001 (1).json"
     file_path_2 = "english-2 (1).txt"
 
     with open(file_path_1, 'r') as file:
