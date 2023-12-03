@@ -1,6 +1,7 @@
-#Name: Morgan Miller
-#email: mille8m9@mail.uc.edu
+#Name: Duc Nam Le, An Tran, Morgan Miller, Johnny Liu
+#email: mille8m9@mail.uc.edu, tran2a3@mail.uc.edu, liu4j4@mail.uc.edu, le2dc@mail.uc.edu
 #Assignment Title: Final Project
+#Due Date: December 7th, 2023
 #Course: IS 4010
 #Semester/Year: Spring 2023
 #Brief Description: Loading picture into project
@@ -11,7 +12,12 @@
 #code will load picture 
 
 from PIL import Image
-Original_Image = Image.open("McGee_Crosley.png") 
-rotated_image1 = Original_Image.transpose(Image.ROTATE_270) 
-rotated_image1.show()
 
+
+def rotate_and_display(image_path):
+    original_image = Image.open(image_path)
+    rotated_image = original_image.transpose(Image.ROTATE_270)
+    rotated_image.show()
+
+# Use this code in the main module to display the image: 
+# rotate_and_display("McGee_Crosley.png")
