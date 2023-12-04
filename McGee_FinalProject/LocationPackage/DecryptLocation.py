@@ -17,6 +17,7 @@ def decrypt_location():
     file_path_1 = "EncryptedGroupHints Fall 2023 Section 001.json"
     file_path_2 = "english-2.txt"
 
+
     with open(file_path_1, 'r') as file:
         data_1 = json.load(file)['McGee']
         data_1 = [int(x) for x in data_1]
@@ -31,6 +32,6 @@ def decrypt_location():
     result_1 = ' '.join([english_vocab_list[x] for x in data_1])
 
     return result_1
-
+  
 # Use this code in the main module to display the decryption message!
 # print(decrypt_location())
