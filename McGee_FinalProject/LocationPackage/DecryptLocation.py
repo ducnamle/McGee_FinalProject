@@ -1,10 +1,21 @@
+#Name: Duc Nam Le, An Tran, Morgan Miller, Johnny Liu
+#email: mille8m9@mail.uc.edu, tran2a3@mail.uc.edu, liu4j4@mail.uc.edu, le2dc@mail.uc.edu
+#Assignment Title: Final Project
+#Due Date: December 7th, 2023
+#Course: IS 4010
+#Semester/Year: Spring 2023
+#Brief Description: Decrypt the location for team McGee
+#Citations: 
+#Anything else that's relevant:
+
+
 #decrypt the location file
 
 import json
 
-def func_1():
-    file_path_1 = "EncryptedGroupHints Fall 2023 Section 001 (1).json"
-    file_path_2 = "english-2 (1).txt"
+def decrypt_location():
+    file_path_1 = "EncryptedGroupHints Fall 2023 Section 001.json"
+    file_path_2 = "english-2.txt"
 
 
     with open(file_path_1, 'r') as file:
@@ -21,7 +32,6 @@ def func_1():
     result_1 = ' '.join([english_vocab_list[x] for x in data_1])
 
     return result_1
-    
-result_1 = func_1()
-
-result_1
+  
+# Use this code in the main module to display the decryption message!
+# print(decrypt_location())
