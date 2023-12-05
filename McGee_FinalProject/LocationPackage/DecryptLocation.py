@@ -33,5 +33,5 @@ def decrypt_location():
 
     print(result_1)
 
-#if __name__ == "__main__":
-#    decrypt_location()
+if __name__ == "__main__":
+    decrypt_location()
