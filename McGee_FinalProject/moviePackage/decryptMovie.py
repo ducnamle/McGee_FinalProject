@@ -4,7 +4,7 @@
 # Due Date: 12/01/2023
 # Course: IS 4010
 # Semester/Year: Fall 2023
-# Brief Description: 
+# Brief Description: Decrypt the movie name
 # Citations: https://stackoverflow.com/questions/9803784/basic-encrypt-and-decrypt-function
 # Anything else that's relevant:
 
