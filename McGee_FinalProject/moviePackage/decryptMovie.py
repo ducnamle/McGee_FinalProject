@@ -10,7 +10,6 @@
 
 # decryptMovie.py 
 
-import base64
 import json
 from cryptography.fernet import Fernet
 
@@ -22,16 +21,22 @@ def decrypt_movie_title():
     fernet_key = Fernet(decryption_key)
     
     # encrypted messages
-    encrypted_messages_file = "TeamsAndEncryptedMessagesForDistribution.json"
+    encrypted_messages_file = r"../filesPackage/TeamsAndEncryptedMessagesForDistribution.json"
     # read the file and find McGee
     with open(encrypted_messages_file, 'r') as file:
         encrypted_file = json.load(file)['McGee'][0]
     
     # decrypt the message     
     decrypted_message = fernet_key.decrypt(encrypted_file.encode())
-    return(decrypted_message.decode())
-decrypted_message = decrypt_movie_title()
+    movie = decrypted_message.decode()
 
-print(f"Decrypted Movie Title: ", decrypted_message)
+    print(f"Decrypted Movie Title:", movie)
 
+# decrypted_message = decrypt_movie_title()
 
+# print(f"Decrypted Movie Title: ", decrypted_message)
+
+if __name__ == "__main__":
+    decrypt_movie_title()
+    
+    

@@ -21,3 +21,6 @@ def rotate_and_display(image_path):
 
 # Use this code in the main module to display the image: 
 # rotate_and_display("McGee_Crosley.png")
+
+if __name__ == "__main__":
+    rotate_and_display(r"../filesPackage/McGee_Crosley.png")
